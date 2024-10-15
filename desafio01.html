@@ -1,20 +1,41 @@
 <!-- HTML básico -->
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Desafio01</title>
-  </head>
-  <body>
-    <h1>Olá, Mundo!</h1>
-    <hr>
-    <p>desafio para HTML básico</p>
-    <p>texto02</p>
 
-    <nav>
-        <a href="desafio02.html">Próximo desafio</a> 
-    </nav>
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Desafio01</title>
+  <style>
+    .menu {
+
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      padding: 10px 20px;
+      background-color: #4c60af;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+
+    }
+
+    .menu:hover {
+      background-color: #3b4a87;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Olá, Mundo!</h1>
+  <hr>
+  <p>desafio para HTML básico</p>
+  <p>texto02</p>
+
+  <nav>
+    <a href="desafio02.html">Próximo desafio</a>
+    <a href="index.html"><button class="menu">Menu</button></a>
+  </nav>
+</body>
+
 </html>
- 
